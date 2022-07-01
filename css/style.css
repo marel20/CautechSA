@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html > body{
+    background-color: #76e29e;
+}
+
 /*----- Start Navbar Style -----*/
 .menu{
     background-color: #000000;
@@ -114,8 +118,79 @@
 }
 /*----- End Navbar Style -----*/
 
+/*----- Start Page Empresa Style ----- */
+.textEmpresa{
+    text-align: justify;
+    font-weight: bold;
+}
+/*----- End Page Empresa Style ----- */
+
 /*----- Start Page Contacto Style ----- */
+.title{
+    text-align: center;
+    margin: 2% auto 3% auto;
+    color: #000000;
+  }
+  .adress > div{
+    margin-top: 5%;
+  }
+  .adress > div > p > a{
+    color: #000000b6;
+  }
 .iframe{
     margin: 3% auto;
 }
+
+.get-in-touch {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+
+  .contact-form .form-field {
+    margin: 25px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-width: 0 0 2px 0;
+    border-color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color: #61d38b;
+
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
+  }
+  .contact-form .label {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000000;
+    color: #45D97B;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
 /*----- End Page Contacto Style ----- */
